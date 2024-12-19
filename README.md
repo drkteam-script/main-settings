@@ -101,7 +101,7 @@ function Library:CreateWindow(hubname)
     Body_Corner.Name = "Body_Corner"
     Body_Corner.Parent = Body
 
-    Title_Hub.Name = "Title_Hub"
+    Title_Hub.Name = "Drk_Hub"
     Title_Hub.Parent = Body
     Title_Hub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     Title_Hub.BackgroundTransparency = 1.000
@@ -187,7 +187,7 @@ function Library:CreateWindow(hubname)
         (setclipboard or toclipboard)("https://discord.gg/5ZH4v44r")
         wait(.1)
         game:GetService("StarterGui"):SetCore("SendNotification",{
-            Title = "https://discord.gg/5ZH4v44r",
+            Title = "Discord",
             Text = "Discord copied on your clipboard",
             Button1 = "Okay",
             Duration = 20
